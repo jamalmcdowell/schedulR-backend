@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://schedul-r.herokuapp.com/', 'http://localhost:8080'
+    origins 'https://schedul-r.herokuapp.com/'
 
     resource '*',
       headers: :any,
